@@ -1,5 +1,5 @@
 // Class representing a student, inherits from the Person class
-public class Student extends Person{
+public class Student extends Person {
     private static int id_gen = 1;
     private String name;
     private String surname;
