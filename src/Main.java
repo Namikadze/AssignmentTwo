@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 // Main class representing the user application
-public class Main {
+public class Main{
 
     // Main method, the entry point of the application
     public static void main(String[] args) {
