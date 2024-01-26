@@ -1,5 +1,5 @@
 // Class representing a person, implementing Comparable and Payable interfaces
-public class Person implements Comparable<Person>, Payable{
+public class Person implements Comparable<Person>, Payable {
     private int id;
     private static int id_m = 1;
     private String name;

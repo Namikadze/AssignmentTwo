@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 // Main class representing the user application
-public class Main{
+public class Main {
 
     // Main method, the entry point of the application
     public static void main(String[] args) {
@@ -12,8 +12,8 @@ public class Main{
         // Add instances of Employee and Student to the ArrayList
         people.add(new Employee("John Lennon", 27045.78));
         people.add(new Employee("George Harrison", 50000.00));
-        people.add(new Student("Ringo Starr", 0.00, 2.5));
-        people.add(new Student("Paul McCartney", 36660.00, 3.5));
+        people.add(new Student("Ringo Starr", 0.00, 1.39));
+        people.add(new Student("Paul McCartney", 36660.00, 3.33));
 
         // Sort the ArrayList using the natural ordering (Comparable interface)
         Collections.sort(people);

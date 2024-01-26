@@ -1,5 +1,5 @@
 // Class representing an employee, inherits from the Person class
-public class Employee extends Person{
+public class Employee extends Person {
     private static int id_gen = 1;
     private int id;
     private String position;
