@@ -1,7 +1,5 @@
 // Class representing an employee, inherits from the Person class
 public class Employee extends Person {
-    private static int id_gen = 1;
-    private int id;
     private String position;
     private double salary;
 
@@ -18,20 +16,19 @@ public class Employee extends Person {
     // Constructor to create an employee with a given name and salary
     public Employee(String name, double salary) {
         super(name, "", salary); // Call the constructor of the base class Person
-        this.id = id_gen++;
     }
 
     // Constructor to create an employee with a given name, surname, and salary
     public Employee(String name, String surname, double salary) {
         super(name, surname, salary); // Call the constructor of the base class Person
-        this.id = id_gen++;
+
     }
 
     // Constructor to create an employee with a given name, surname, salary, and position
     public Employee(String name, String surname, double salary, String position) {
         super(name, surname, salary); // Call the constructor of the base class Person
         this.position = position;
-        this.id = id_gen++;
+
     }
 
     // Override the toString method to output information about the employee

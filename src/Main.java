@@ -10,10 +10,10 @@ public class Main {
         ArrayList<Person> people = new ArrayList<>();
 
         // Add instances of Employee and Student to the ArrayList
-        people.add(new Employee("John Lennon", 27045.78));
-        people.add(new Employee("George Harrison", 50000.00));
-        people.add(new Student("Ringo Starr", 0.00, 1.39));
-        people.add(new Student("Paul McCartney", 36660.00, 3.33));
+        people.add(new Employee("John", "Leon",  27045.78));
+        people.add(new Employee("George",  "Harrison", 50000.00));
+        people.add(new Student("Ringo", "Star", 1.39));
+        people.add(new Student("Paul",  "McCartney", 3.33));
 
         // Sort the ArrayList using the natural ordering (Comparable interface)
         Collections.sort(people);
